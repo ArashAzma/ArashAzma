@@ -1,0 +1,10 @@
+{%- comment -%}Figure slot for `include.item`: image when set, otherwise a placeholder. Only for items with `figure: true`.{%- endcomment -%}
+{%- if include.item.figure -%}
+<figure class="item-figure">
+{%- if include.item.image != blank -%}
+<img src="{{ include.item.image | prepend: '/images/' | prepend: site.baseurl }}" alt="{{ include.item.image_alt }}" loading="lazy">
+{%- else -%}
+<div class="item-figure__placeholder" role="img" aria-label="Figure placeholder">Figure placeholder</div>
+{%- endif -%}
+</figure>
+{%- endif -%}

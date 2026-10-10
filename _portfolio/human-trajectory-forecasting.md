@@ -2,6 +2,7 @@
 title: "Human Trajectory Forecasting"
 excerpt: "YOLOv11 detection on the Stanford Drone Dataset + YNet forecasting (ADE 11.49 / FDE 20.23, 4-second window)."
 collection: portfolio
+order: 4
 ---
 
 An end-to-end computer vision pipeline for automated human detection and spatial-temporal trajectory prediction in high-altitude aerial imagery.

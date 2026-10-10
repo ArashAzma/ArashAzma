@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+{% include base_path %}
+
+<main id="main" class="home" role="main">
+  <header class="home__hero">
+    {% include author-profile.html %}
+  </header>
+
+  <div class="home__content">
+    {{ content }}
+  </div>
+</main>

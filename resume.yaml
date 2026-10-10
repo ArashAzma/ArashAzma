@@ -44,12 +44,12 @@
             - "Using the HGT-produced embeddings to condition Qwen3-8B, then training the conditioned model with LoRA supervised fine-tuning followed by GRPO reinforcement learning to optimize placement decisions against cost and latency objectives."
 
         - company: "Research Project"
-          position: "Manuscript Under Review | FUM"
+          position: "LUSA, accepted at ICCKE 2026 | FUM"
           start_date: 2025-11
           end_date: present
           highlights:
-            - "Co-authoring a research manuscript with a Senior Researcher, currently under review at a top-tier computer vision venue, proposing a novel attention mechanism for deep neural networks."
-            - "Investigating spatial and channel-wise feature dependencies to improve the robustness and interpretability of vision backbones."
+            - "Co-authored \"Lightweight Unified Shuffle Attention for Adaptive Channel-Spatial Recalibration\" with Mahdi Amjadi Kolour, Maryam Vaghei and Dr. Ahad Harati at the Robot Perception Laboratory, accepted at ICCKE 2026."
+            - "Plug-and-play attention block that improves ResNet-50 by 0.29 points on CIFAR-10 and 1.16 points on CIFAR-100 while adding only 520 parameters (26.5% fewer than SA-Net)."
 
         - company: "Research Assistant"
           position: "Human Trajectory Forecasting | FUM"

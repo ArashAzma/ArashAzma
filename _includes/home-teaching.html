@@ -1,0 +1,18 @@
+{%- include base_path -%}
+{%- if site.teaching.size > 0 -%}
+<section class="home__section" aria-labelledby="teaching">
+<h2 id="teaching">Teaching</h2>
+<ul class="home__list">
+{%- for post in site.teaching reversed %}
+<li>
+<a class="home__item-title" href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
+<p class="home__item-meta">{{ post.venue }}, {% if post.period %}{{ post.period }}{% else %}{{ post.date | date: "%Y" }}{% endif %}</p>
+{%- if post.excerpt %}
+<p class="home__item-desc">{{ post.excerpt | strip_html | strip }}</p>
+{%- endif %}
+</li>
+{%- endfor %}
+</ul>
+<p class="home__more"><a href="{{ base_path }}/teaching/">All teaching &rarr;</a></p>
+</section>
+{%- endif -%}

@@ -161,11 +161,11 @@
   ],
   "publications": [
     {
-      "name": "A Novel Attention Mechanism for Deep Neural Networks (under review)",
-      "publisher": "Under review at a top-tier computer vision venue",
+      "name": "Lightweight Unified Shuffle Attention for Adaptive Channel-Spatial Recalibration",
+      "publisher": "ICCKE 2026 (accepted)",
       "releaseDate": "2025-11-01",
       "website": "",
-      "summary": "Co-authored with a senior researcher; proposes a novel attention mechanism that improves spatial and channel-wise feature representation, robustness, and interpretability of vision backbones."
+      "summary": "Co-authored with Mahdi Amjadi Kolour, Maryam Vaghei and Ahad Harati; a plug-and-play channel-spatial attention block that improves ResNet-50 on CIFAR-10 and CIFAR-100 while adding only 520 parameters."
     }
   ],
   "presentations": [],
@@ -197,7 +197,7 @@
       "name": "Persian Whisper Models (Persian STT)",
       "category": "Research",
       "date": "2025-02",
-      "url": "https://huggingface.co/ArashAzma",
+      "url": "https://huggingface.co/C1Tech",
       "description": "Distributed fine-tuning of Whisper across 3 GPUs reduced CER from 0.28 to 0.025. Open-source models on Hugging Face (1,200+ monthly downloads) with an accompanying benchmark dataset and leaderboard for reproducible Persian ASR evaluation."
     },
     {

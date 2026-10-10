@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Arash Azma"
 title_separator          : "-"
 name                     : &name "Arash Azma"
-description              : &description "Arash Azma's academic portfolio - AI, LLMs, speech processing, robotics and computer vision"
+description              : &description "Arash Azma's academic portfolio - robotics, computer vision, AI, LLMs and speech processing"
 url                      : https://arashazma.github.io # The base hostname & protocol for your site, e.g. "https://[your GitHub username].github.io"
 baseurl                  : /ArashAzma # the subpath of your site (matches the repo name; set to "" if you rename the repo to ArashAzma.github.io)
 repository               : "ArashAzma/ArashAzma"
@@ -25,9 +25,11 @@ author:
   avatar           : "profile.png"
   name             : "Arash Azma"
   pronouns         : "he/him"
-  bio              : "Computer Engineer (B.Sc.) at Ferdowsi University of Mashhad researching AI, large language models, speech processing and computer vision."
+  bio              : "I am a Computer Engineer (B.Sc.) at **Ferdowsi University of Mashhad (FUM)**, focused on **robotics and computer vision**, with research and professional experience in artificial intelligence, large language models, speech processing and software development. I am seeking a graduate opportunity to contribute to research and innovation in robotics, computer vision and AI."
   location         : "Mashhad, Iran"
   employer         : "Ferdowsi University of Mashhad"
+  education        : "top 5% of the Department of Computer Engineering, top 10% of the Faculty of Engineering"
+  gpa              : "3.9/4.0"
   uri              : # URL
   email            : "arashazma8@gmail.com"
 
@@ -51,6 +53,7 @@ author:
   codepen          : # Username
   dribbble         : # Username
   github           : "ArashAzma"
+  huggingface      : "C1Tech"
   kaggle           : # Username
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")
 
@@ -85,10 +88,10 @@ author:
 publication_category:
   books:
     title: 'Books'
-  manuscripts:
-    title: 'Journal Articles'
   conferences:
     title: 'Conference Papers'
+  manuscripts:
+    title: 'Manuscripts in Preparation'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews

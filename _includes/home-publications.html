@@ -1,0 +1,22 @@
+{%- include base_path -%}
+{%- if site.publications.size > 0 -%}
+<section class="home__section" aria-labelledby="publications">
+<h2 id="publications">Selected publications</h2>
+<ol class="home__list">
+{%- for post in site.publications reversed limit: 5 %}
+<li>
+<a class="home__item-title" href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
+<p class="home__item-meta">{% if post.citation contains " (" %}{{ post.citation | split: " (" | first }}<br>{% endif %}{% if post.venue %}<i>{{ post.venue }}</i>, {% endif %}{{ post.date | date: "%Y" }}</p>
+{%- if post.excerpt %}
+<p class="home__item-desc">{{ post.excerpt | strip_html | strip }}</p>
+{%- endif %}
+{%- include item-figure.html item=post %}
+{%- if post.paperurl != blank or post.codeurl != blank or post.slidesurl != blank or post.bibtexurl != blank %}
+<p class="home__item-links">{% if post.paperurl != blank %}<a href="{{ post.paperurl }}">Paper</a>{% endif %}{% if post.codeurl != blank %}<a href="{{ post.codeurl }}">Code</a>{% endif %}{% if post.slidesurl != blank %}<a href="{{ post.slidesurl }}">Slides</a>{% endif %}{% if post.bibtexurl != blank %}<a href="{{ post.bibtexurl }}">BibTeX</a>{% endif %}</p>
+{%- endif %}
+</li>
+{%- endfor %}
+</ol>
+<p class="home__more"><a href="{{ base_path }}/publications/">All publications &rarr;</a></p>
+</section>
+{%- endif -%}

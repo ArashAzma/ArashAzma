@@ -1,0 +1,17 @@
+{% comment %}Citation plus paper/code/slides/bibtex links and a free-form `links` list for `include.item`. Empty URLs (e.g. paperurl: '') are skipped.{% endcomment %}
+{% assign item = include.item %}
+{% if item.citation %}<p class="archive__item-meta">Recommended citation: {{ item.citation }}</p>{% endif %}
+{% if item.paperurl != blank or item.codeurl != blank or item.slidesurl != blank or item.bibtexurl != blank %}
+<p class="archive__item-links">
+  {% if item.paperurl != blank %}<a href="{{ item.paperurl }}">Paper</a>{% endif %}
+  {% if item.codeurl != blank %}<a href="{{ item.codeurl }}">Code</a>{% endif %}
+  {% if item.slidesurl != blank %}<a href="{{ item.slidesurl }}">Slides</a>{% endif %}
+  {% if item.bibtexurl != blank %}<a href="{{ item.bibtexurl }}">BibTeX</a>{% endif %}
+</p>
+{% endif %}
+{% if item.links %}
+<p class="archive__item-links">
+  {% for link in item.links %}<a href="{{ link.url }}">{{ link.label }}</a>
+  {% endfor %}
+</p>
+{% endif %}

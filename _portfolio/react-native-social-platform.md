@@ -2,6 +2,7 @@
 title: "Social Media Platform (React Native)"
 excerpt: "Production-grade, high-traffic social platform (Twitter clone) serving 100,000+ active users."
 collection: portfolio
+order: 6
 ---
 
 Engineered and scaled a high-traffic, production-grade social media platform (Twitter clone) using React Native, implementing an efficient UI/UX that successfully onboarded and served 100,000+ active users.

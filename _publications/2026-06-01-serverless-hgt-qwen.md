@@ -1,7 +1,7 @@
 ---
 title: "Serverless Function Placement with GNN-Conditioned Language Models"
 collection: publications
-category: conferences
+category: manuscripts
 permalink: /publication/2026-06-serverless-hgt-qwen
 excerpt: 'A Heterogeneous Graph Transformer encoder learns embeddings over the function-resource dependency graph to condition Qwen3-8B, trained with LoRA SFT + GRPO for cost- and latency-optimal serverless placement.'
 date: 2026-06-01
