@@ -22,10 +22,10 @@ repository               : "ArashAzma/ArashAzma"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "Arash Azma"
   pronouns         : "he/him"
-  bio              : "I am a Computer Engineer (B.Sc.) at **Ferdowsi University of Mashhad (FUM)**, focused on **robotics and computer vision**, with research and professional experience in artificial intelligence, large language models, speech processing and software development. I am seeking a graduate opportunity to contribute to research and innovation in robotics, computer vision and AI."
+  bio              : "I am a Computer Engineer (B.Sc.) at **Ferdowsi University of Mashhad (FUM)**, focused on robotics and computer vision, with research and professional experience in computer vision, large language models, speech processing and software development."
   location         : "Mashhad, Iran"
   employer         : "Ferdowsi University of Mashhad"
   education        : "top 5% of the Department of Computer Engineering, top 10% of the Faculty of Engineering"

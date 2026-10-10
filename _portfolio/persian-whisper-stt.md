@@ -4,7 +4,6 @@ excerpt: "Open-source Persian Whisper models fine-tuned at C1Tech Group (CER 0.2
 collection: portfolio
 order: 1
 featured: true
-home: research
 figure: true
 image: 'whisper-base-common-voice.png'
 image_alt: 'Bar chart of word and character error rate on the Common Voice dataset: C1Tech Whisper base scores far lower than OpenAI Whisper large-v3, Vosk 0.5, NVIDIA FastConformer and OpenAI Whisper base and small.'

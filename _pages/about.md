@@ -4,11 +4,10 @@ title: "Arash Azma - Robotics, Computer Vision and AI"
 layout: home
 author_profile: true
 interests:
-  - Robotics
   - Computer vision
-  - Artificial intelligence
   - Large language models
   - Speech processing
+  - Robotics
 redirect_from:
   - /about/
   - /about.html
@@ -18,20 +17,21 @@ redirect_from:
 
 <section class="home__section" aria-labelledby="research">
 <h2 id="research">Research</h2>
-{% include home-project-items.html section="research" %}
 <ul class="home__list">
+{% include home-project-items.html slugs="persian-whisper-stt" %}
 <li>
 <a class="home__item-title" href="{{ site.baseurl }}/portfolio/visual-odometry/">Robotics and visual odometry</a>
 <p class="home__item-meta">Computer Vision Engineer, Robot Perception Lab &middot; Nov 2024 - present</p>
 <p class="home__item-desc">Research on robust trajectory reconstruction, supervised by Dr. Ahad Harati. I built an end-to-end visual odometry pipeline that pairs SIFT and ORB feature extraction with Perspective-n-Point (PnP) for 3D-to-2D pose tracking, benchmarked on the KITTI autonomous driving dataset. I also co-developed LUSA, a plug-and-play channel-spatial attention module for vision backbones, accepted at ICCKE 2026. Robotics is the direction I want to build my graduate research around.</p>
 </li>
+{% include home-project-items.html slugs="persian-tts-models" %}
 <li>
 <a class="home__item-title" href="{{ site.baseurl }}/publication/2026-06-serverless-hgt-qwen/">Serverless function optimization with GNNs and LLMs</a>
 <p class="home__item-meta">Research collaboration with Dr. Saeid Abrishami, FUM &middot; 2026 - present</p>
 <p class="home__item-desc">Placing serverless cloud functions using graph neural network (HGT) embeddings that condition a Qwen3-8B LLM, trained with LoRA supervised fine-tuning and GRPO reinforcement learning against cost and latency objectives.</p>
 </li>
 <li>
-<a class="home__item-title" href="{{ site.baseurl }}/portfolio/human-trajectory-forecasting/">Human trajectory forecasting</a>
+<a class="home__item-title" href="{{ site.baseurl }}/portfolio/human-trajectory-forecasting/">Trajectory forecasting</a>
 <p class="home__item-meta">Research Assistant, FUM &middot; 2024 - 2025</p>
 <p class="home__item-desc">An end-to-end computer vision pipeline for human detection and trajectory prediction in aerial imagery: YOLOv11 detection on the Stanford Drone Dataset and a comparison of YNet and Social-GAN forecasting, with YNet reaching ADE 11.49 / FDE 20.23 for a 4-second prediction window.</p>
 </li>

@@ -3,7 +3,6 @@ title: "Persian Text-to-Speech Models (OmniVoice, VibeVoice)"
 excerpt: "Persian fine-tunes of two open text-to-speech models, VibeVoice-1.5B and OmniVoice, released open-source on Hugging Face under Apache-2.0."
 collection: portfolio
 order: 2
-home: research
 links:
   - label: "VibeVoice Persian TTS"
     url: "https://huggingface.co/C1Tech/VibeVoice_Persian_TTS"

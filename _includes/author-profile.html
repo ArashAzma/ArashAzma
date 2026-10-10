@@ -8,9 +8,9 @@
 
   {% if author.avatar %}
     {% if author.avatar contains "://" %}
-      <img class="author__avatar" src="{{ author.avatar }}" alt="Portrait of {{ author.name }}" width="112" height="112" fetchpriority="high" itemprop="image" />
+      <img class="author__avatar" src="{{ author.avatar }}" alt="Portrait of {{ author.name }}" width="176" height="176" fetchpriority="high" itemprop="image" />
     {% else %}
-      <img class="author__avatar" src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" alt="Portrait of {{ author.name }}" width="112" height="112" fetchpriority="high" itemprop="image" />
+      <img class="author__avatar" src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" alt="Portrait of {{ author.name }}" width="176" height="176" fetchpriority="high" itemprop="image" />
     {% endif %}
   {% endif %}
 

@@ -165,7 +165,7 @@
       "publisher": "ICCKE 2026 (accepted)",
       "releaseDate": "2025-11-01",
       "website": "",
-      "summary": "Co-authored with Mahdi Amjadi Kolour, Maryam Vaghei and Ahad Harati; a plug-and-play channel-spatial attention block that improves ResNet-50 on CIFAR-10 and CIFAR-100 while adding only 520 parameters."
+      "summary": "Co-authored with Mahdi Kolour, Maryam Vaghei and Ahad Harati; a plug-and-play channel-spatial attention block that improves ResNet-50 on CIFAR-10 and CIFAR-100 while adding only 520 parameters."
     }
   ],
   "presentations": [],

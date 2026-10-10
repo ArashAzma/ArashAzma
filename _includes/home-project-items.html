@@ -1,7 +1,6 @@
 {%- include base_path -%}
-{%- assign projects = site.portfolio | where: "home", include.section | sort: "order" -%}
-<ul class="home__list">
-{%- for post in projects %}
+{%- assign projects = site.portfolio | sort: "order" -%}
+{%- for post in projects -%}{%- if include.slugs contains post.slug -%}
 <li{% if post.featured %} class="home__item--featured"{% endif %}>
 <a class="home__item-title" href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
 {%- if post.excerpt %}
@@ -12,5 +11,4 @@
 <p class="home__item-links">{% for link in post.links %}<a href="{{ link.url }}">{{ link.label }}</a>{% endfor %}</p>
 {%- endif %}
 </li>
-{%- endfor %}
-</ul>
+{% endif -%}{%- endfor -%}
