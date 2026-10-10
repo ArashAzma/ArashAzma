@@ -1,0 +1,138 @@
+  cv:
+    name: Arash Azma
+    email: arashazma8@gmail.com
+    social_networks:
+      - network: LinkedIn
+        username: ArashAzma
+
+      - network: GitHub
+        username: ArashAzma
+
+    sections:
+      summary:
+        - "Highly motivated Computer Engineer (B.Sc.) with strong experience in Artificial Intelligence, Machine Learning, Large Language Models (LLMs), Speech Processing, and Software Development. Experienced in developing AI-driven applications using PyTorch, Hugging Face, and modern deep learning frameworks. Demonstrated success in academic research, teaching, and industry projects, including robotics perception, speech recognition systems, and scalable mobile applications. Seeking a graduate opportunity to contribute to cutting-edge research and innovation in AI, robotics, and computer engineering."
+
+      education:
+        - institution: "Bachelor of Science (B.Sc.) in Computer Engineering"
+          area: "\n_Ferdowsi University of Mashhad (FUM) - GPA: 3.9/4.0_"
+          start_date: 2022-09
+          end_date: 2026-04
+          highlights:
+            - "Ranked among the top 5% in the Department of Computer Engineering and top 10% in the Faculty of Engineering."
+            - "Selected Member, Iran’s National Elites Foundation (INEF)."
+
+      skills:
+        - label: "Artificial Intelligence & Machine Learning"
+          details: "PyTorch, PyTorch Lightning, Hugging Face Transformers, LLMs, PEFT (LoRA), LangChain, vLLM, Reinforcement Learning, Computer Vision, Speech Recognition (STT), Text-to-Speech (TTS), GNN"
+        - label: "Programming & Software Development"
+          details: "Python, C++, React Native, React, FastAPI, OOP, Data Structures & Algorithms"
+        - label: "Tools & Infrastructure"
+          details: "Docker, Linux, Git/GitHub, Jira, Agile/Scrum Methodologies, Raspberry Pi, Multi-GPU Training Pipelines"
+        - label: "Languages"
+          details: "Fluent in English (TOEFL iBT: 102)"
+        - label: "Soft Skills"
+          details: "Cross-cultural communication and collaboration, Strong interpersonal and team collaboration skills, Problem-solving, Critical thinking, Project planning and management"
+
+      academic_experience:
+        - company: "Research Collaboration"
+          position: "Serverless Function Optimization | FUM"
+          start_date: 2026-06
+          end_date: present
+          highlights:
+            - "Collaborating with Dr. Saeid Abrishami and a PhD student on optimizing serverless cloud function placement using graph neural networks and large language models."
+            - "Designing a Heterogeneous Graph Transformer (HGT) encoder that learns embeddings over the function-resource dependency graph, capturing structural and type-specific relationships between functions, triggers, and compute resources."
+            - "Using the HGT-produced embeddings to condition Qwen3-8B, then training the conditioned model with LoRA supervised fine-tuning followed by GRPO reinforcement learning to optimize placement decisions against cost and latency objectives."
+
+        - company: "Research Project"
+          position: "Manuscript Under Review | FUM"
+          start_date: 2025-11
+          end_date: present
+          highlights:
+            - "Co-authoring a research manuscript with a Senior Researcher, currently under review at a top-tier computer vision venue, proposing a novel attention mechanism for deep neural networks."
+            - "Investigating spatial and channel-wise feature dependencies to improve the robustness and interpretability of vision backbones."
+
+        - company: "Research Assistant"
+          position: "Human Trajectory Forecasting | FUM"
+          start_date: 2024-09
+          end_date: 2025-02
+          highlights:
+            - "Developed an end-to-end computer vision pipeline for automated human detection and spatial-temporal trajectory prediction in high-altitude aerial imagery."
+            - "Fine-tuned and evaluated YOLOv11 object detection models on the Stanford Drone Dataset (SDD), utilizing OpenCV and the Ultralytics framework for streamlined frame extraction and dataset preprocessing."
+            - "Benchmarked generative and heatmap-based forecasting architectures, conducting a comparative analysis between YNet and Social-GAN to optimize multi-modal path predictions in crowded environments."
+            - "Achieved a significant performance improvement with YNet, capturing long-term temporal dependencies to lower the Average Displacement Error (ADE) to 11.49 and Final Displacement Error (FDE) to 20.23 for a 4-second prediction window."
+
+        - company: "Teaching Assistant"
+          position: "Fundamentals of AI | FUM"
+          start_date: 2025-02
+          end_date: present
+          highlights:
+            - "Design and assess coursework and assignments related to Q-learning and policy-based reinforcement learning methods"
+            - "Facilitate Reinforcement Learning tutorials and supervise undergraduate student projects"
+            - "Mentor students in implementing AI algorithms and debugging machine learning workflows"
+
+        - company: "Teaching Assistant"
+          position: "Computational Intelligence | FUM"
+          start_date: 2026-01
+          end_date: present
+          highlights:
+            - "Supervise projects focused on Support Vector Machines (SVMs) and Decision Tree algorithms"
+            - "Mentor students in implementing machine learning algorithms from scratch and using industry-standard libraries"
+
+        - company: "Lab Instructor"
+          position: "Fundamentals of Programming | FUM"
+          start_date: 2023-09
+          end_date: 2025-07
+          highlights:
+            - "Provided academic instruction and mentorship to more than 100 undergraduate students in C programming"
+            - "Delivered technical guidance on pointers, memory management, and algorithmic problem-solving concepts"
+            - "Facilitated laboratory sessions and evaluated programming assignments to support student learning outcomes"
+
+      work_experience:
+        - position: C1Tech Group
+          company: Data Scientist
+          start_date: 2025-02
+          end_date: present
+          highlights:
+            - Develop a high-performance Persian STT system using PyTorch and distributed fine-tuning across 3 GPUs, reducing CER from 0.28 to 0.025; **open-source the resulting Whisper models on Hugging Face, reaching 1,200+ monthly downloads**, and release an accompanying benchmark dataset and leaderboard for reproducible Persian ASR evaluation.
+            - Design and implement an automated audio annotation pipeline leveraging ensembles of open-source AI models, curating over 5,000 hours of high-quality speech data.
+            - Fine-tune Qwen and Gemma large language models (LLMs) for intent detection and slot-filling in conversational AI systems, improving domain-specific intent classification accuracy by 18% (achieving a 0.94 F1-score).
+            - Design and deploy an end-to-end voice assistant by integrating STT, LLM, and TTS modules with Node-RED–orchestrated AI agent workflows, enabling natural language requests to be translated into structured report-generation queries and dynamically executed multi-step workflows.
+        - position: Robot Perception Laboratory
+          company: Robotics Research Intern
+          start_date: 2024-07
+          end_date: present
+          highlights:
+            - "Conducted research within the Visual Odometry (VO), focusing on robust trajectory reconstruction."
+            - "Developed an end-to-end VO pipeline utilizing feature extraction algorithms (SIFT and ORB) paired with Perspective-n-Point (PnP) for precise 3D-to-2D pose tracking."
+            - "Evaluated and benchmarked model performance using the KITTI autonomous driving vision dataset"
+            - "Researching and developing a novel, plug-and-play convolutional attention module designed to enhance spatial and channel-wise feature representation across diverse vision backbones."
+
+        - position: GAP Company
+          company: React Native Developer
+          start_date: 2023-09
+          end_date: 2024-09
+          highlights:
+            - "Engineered and scaled a high-traffic, production-grade social media platform (Twitter clone) using React Native, implementing an efficient UI/UX that successfully onboarded and served 100,000+ active users."
+            - "Optimized mobile application performance and overhauled state management architecture, resulting in a measurable reduction in app latency and a smoother multimedia handling experience across cross-platform devices."
+            - "Fast-tracked to a full-time developer role after a 3-month intensive internship due to key technical contributions to core architecture, feature deployment, and codebase scalability."
+
+      references:
+        - label: "Dr. Saeid Abrishami"
+          details: "Faculty Member, Computer Engineering Department, Ferdowsi University of Mashhad\n\nEmail: s-abrishami@um.ac.ir"
+
+        - label: "Dr. Fazl Ersi"
+          details: "Faculty Member, Computer Engineering Department, Ferdowsi University of Mashhad\n\nEmail: ehsan.fazl@gmail.com"
+
+        - label: "Dr. Ahad Harati"
+          details: "Research Supervisor, Robot Perception Laboratory\n\nEmail: a.harati@um.ac.ir"
+
+        - label: "Dr. Ali Mehrizi"
+          details: "Research Supervisor, Human Trajectory Forecasting Project\n\nEmail: mehrizi@um.ac.ir"
+  design:
+    theme: harvard
+    entries:
+      degree_width: 0cm
+  locale:
+    language: english
+  settings:
+    current_date: today

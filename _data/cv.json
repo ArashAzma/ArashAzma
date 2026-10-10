@@ -1,152 +1,239 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
+    "name": "Arash Azma",
+    "label": "Computer Engineer",
+    "email": "arashazma8@gmail.com",
     "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "website": "https://arashazma.github.io/ArashAzma",
+    "summary": "Computer Engineer (B.Sc.) with strong experience in Artificial Intelligence, Machine Learning, Large Language Models (LLMs), Speech Processing, and Software Development. Experienced in developing AI-driven applications using PyTorch, Hugging Face, and modern deep learning frameworks. Demonstrated success in academic research, teaching, and industry projects, including robotics perception, speech recognition systems, and scalable mobile applications. Seeking a graduate opportunity to contribute to cutting-edge research and innovation in AI, robotics, and computer engineering.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
+      "city": "Mashhad",
+      "countryCode": "IR",
       "region": ""
     },
     "profiles": [
       {
-        "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-      },
-      {
-        "network": "ORCID",
-        "username": "",
-        "url": "https://orcid.org/yourorcidurl"
-      },
-      {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "ArashAzma",
+        "url": "https://github.com/ArashAzma"
+      },
+      {
+        "network": "Linkedin",
+        "username": "ArashAzma",
+        "url": "https://www.linkedin.com/in/ArashAzma"
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "position": "Data Scientist",
+      "company": "C1Tech Group",
+      "startDate": "2025-02",
+      "endDate": "Present",
+      "summary": "Persian speech recognition, LLM fine-tuning, and end-to-end voice assistant development.",
+      "highlights": [
+        "Develop a high-performance Persian STT system using PyTorch and distributed fine-tuning across 3 GPUs, reducing CER from 0.28 to 0.025; open-source the resulting Whisper models on Hugging Face (1,200+ monthly downloads), and release an accompanying benchmark dataset and leaderboard for reproducible Persian ASR evaluation.",
+        "Design and implement an automated audio annotation pipeline leveraging ensembles of open-source AI models, curating over 5,000 hours of high-quality speech data.",
+        "Fine-tune Qwen and Gemma large language models (LLMs) for intent detection and slot-filling in conversational AI systems, improving domain-specific intent classification accuracy by 18% (achieving a 0.94 F1-score).",
+        "Design and deploy an end-to-end voice assistant by integrating STT, LLM, and TTS modules with Node-RED-orchestrated AI agent workflows, enabling natural language requests to be translated into structured report-generation queries and dynamically executed multi-step workflows."
+      ]
+    },
+    {
+      "position": "Robotics Research Intern",
+      "company": "Robot Perception Laboratory",
+      "startDate": "2024-07",
+      "endDate": "Present",
+      "summary": "Visual odometry and attention-module research within the Visual Odometry group.",
+      "highlights": [
+        "Developed an end-to-end VO pipeline utilizing feature extraction algorithms (SIFT and ORB) paired with Perspective-n-Point (PnP) for precise 3D-to-2D pose tracking.",
+        "Evaluated and benchmarked model performance using the KITTI autonomous driving vision dataset.",
+        "Researching and developing a novel, plug-and-play convolutional attention module designed to enhance spatial and channel-wise feature representation across diverse vision backbones."
+      ]
+    },
+    {
+      "position": "React Native Developer",
+      "company": "GAP Company",
+      "startDate": "2023-09",
+      "endDate": "2024-09",
+      "summary": "Full-time developer on a high-traffic social media platform.",
+      "highlights": [
+        "Engineered and scaled a high-traffic, production-grade social media platform (Twitter clone) using React Native, implementing an efficient UI/UX that successfully onboarded and served 100,000+ active users.",
+        "Optimized mobile application performance and overhauled state management architecture, resulting in a measurable reduction in app latency and a smoother multimedia handling experience across cross-platform devices.",
+        "Fast-tracked to a full-time developer role after a 3-month intensive internship due to key technical contributions to core architecture, feature deployment, and codebase scalability."
+      ]
+    }
+  ],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
-      "courses": []
+      "institution": "Ferdowsi University of Mashhad (FUM), Department of Computer Engineering",
+      "area": "Bachelor of Science (B.Sc.) in Computer Engineering",
+      "studyType": "Undergraduate",
+      "startDate": "2022-09",
+      "endDate": "2026-04",
+      "gpa": "3.9/4.0",
+      "courses": [
+        "Ranked among the top 5% in the Department of Computer Engineering and top 10% in the Faculty of Engineering",
+        "Selected Member, Iran's National Elites Foundation (INEF)"
+      ]
     }
   ],
-  "skills": [],
-  "languages": [],
+  "skills": [
+    {
+      "name": "Artificial Intelligence & Machine Learning",
+      "keywords": [
+        "PyTorch",
+        "PyTorch Lightning",
+        "Hugging Face Transformers",
+        "LLMs",
+        "PEFT (LoRA)",
+        "LangChain",
+        "vLLM",
+        "Reinforcement Learning",
+        "Computer Vision",
+        "Speech Recognition (STT)",
+        "Text-to-Speech (TTS)",
+        "GNN"
+      ]
+    },
+    {
+      "name": "Programming & Software Development",
+      "keywords": [
+        "Python",
+        "C++",
+        "React Native",
+        "React",
+        "FastAPI",
+        "OOP",
+        "Data Structures & Algorithms"
+      ]
+    },
+    {
+      "name": "Tools & Infrastructure",
+      "keywords": [
+        "Docker",
+        "Linux",
+        "Git/GitHub",
+        "Jira",
+        "Agile/Scrum Methodologies",
+        "Raspberry Pi",
+        "Multi-GPU Training Pipelines"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Fluent (TOEFL iBT: 102)"
+    },
+    {
+      "language": "Persian (Farsi)",
+      "fluency": "Native"
+    }
+  ],
   "interests": [],
-  "references": [],
+  "references": [
+    {
+      "name": "Dr. Saeid Abrishami",
+      "position": "Faculty Member, Computer Engineering Department, Ferdowsi University of Mashhad",
+      "institution": "",
+      "email": "s-abrishami@um.ac.ir"
+    },
+    {
+      "name": "Dr. Fazl Ersi",
+      "position": "Faculty Member, Computer Engineering Department, Ferdowsi University of Mashhad",
+      "institution": "",
+      "email": "ehsan.fazl@gmail.com"
+    },
+    {
+      "name": "Dr. Ahad Harati",
+      "position": "Research Supervisor, Robot Perception Laboratory",
+      "institution": "",
+      "email": "a.harati@um.ac.ir"
+    },
+    {
+      "name": "Dr. Ali Mehrizi",
+      "position": "Research Supervisor, Human Trajectory Forecasting Project",
+      "institution": "",
+      "email": "mehrizi@um.ac.ir"
+    }
+  ],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "https://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "https://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "A Novel Attention Mechanism for Deep Neural Networks (under review)",
+      "publisher": "Under review at a top-tier computer vision venue",
+      "releaseDate": "2025-11-01",
+      "website": "",
+      "summary": "Co-authored with a senior researcher; proposes a novel attention mechanism that improves spatial and channel-wise feature representation, robustness, and interpretability of vision backbones."
     }
   ],
-  "presentations": [
-    {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
-    }
-  ],
+  "presentations": [],
   "teaching": [
     {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
+      "course": "Fundamentals of AI",
+      "institution": "Ferdowsi University of Mashhad",
+      "date": "2025-02",
+      "role": "Teaching Assistant",
+      "description": "Design and assess coursework and assignments on Q-learning and policy-based reinforcement learning; facilitate RL tutorials and supervise undergraduate student projects; mentor students in implementing AI algorithms and debugging machine learning workflows."
     },
     {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
+      "course": "Computational Intelligence",
+      "institution": "Ferdowsi University of Mashhad",
+      "date": "2026-01",
+      "role": "Teaching Assistant",
+      "description": "Supervise projects focused on Support Vector Machines (SVMs) and Decision Tree algorithms; mentor students in implementing machine learning algorithms from scratch and using industry-standard libraries."
+    },
+    {
+      "course": "Fundamentals of Programming",
+      "institution": "Ferdowsi University of Mashhad",
+      "date": "2023-09",
+      "role": "Lab Instructor",
+      "description": "Provided academic instruction and mentorship to more than 100 undergraduate students in C programming; delivered technical guidance on pointers, memory management, and algorithmic problem-solving; facilitated laboratory sessions and evaluated programming assignments."
     }
   ],
   "portfolio": [
     {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
+      "name": "Persian Whisper Models (Persian STT)",
+      "category": "Research",
+      "date": "2025-02",
+      "url": "https://huggingface.co/ArashAzma",
+      "description": "Distributed fine-tuning of Whisper across 3 GPUs reduced CER from 0.28 to 0.025. Open-source models on Hugging Face (1,200+ monthly downloads) with an accompanying benchmark dataset and leaderboard for reproducible Persian ASR evaluation."
+    },
+    {
+      "name": "End-to-End Persian Voice Assistant",
+      "category": "Software",
+      "date": "2025-03",
       "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+      "description": "Integrates STT, LLM, and TTS modules with Node-RED-orchestrated AI agent workflows, translating natural language requests into structured report-generation queries and dynamically executed multi-step workflows."
+    },
+    {
+      "name": "Human Trajectory Forecasting",
+      "category": "Research",
+      "date": "2024-09",
+      "url": "",
+      "description": "End-to-end computer vision pipeline for human detection and spatial-temporal trajectory prediction in high-altitude aerial imagery. YOLOv11 on the Stanford Drone Dataset; YNet forecasting lowers ADE to 11.49 and FDE to 20.23 for a 4-second prediction window."
+    },
+    {
+      "name": "Visual Odometry Pipeline",
+      "category": "Research",
+      "date": "2024-07",
+      "url": "",
+      "description": "End-to-end VO pipeline using SIFT and ORB feature extraction paired with PnP for 3D-to-2D pose tracking; evaluated and benchmarked on the KITTI autonomous driving vision dataset."
+    },
+    {
+      "name": "Serverless Function Placement with GNN-Conditioned LLMs",
+      "category": "Research",
+      "date": "2026-06",
+      "url": "",
+      "description": "Heterogeneous Graph Transformer (HGT) embeddings over the function-resource dependency graph condition Qwen3-8B, trained with LoRA supervised fine-tuning and GRPO reinforcement learning to optimize placement against cost and latency objectives."
+    },
+    {
+      "name": "Social Media Platform (React Native)",
+      "category": "Software",
+      "date": "2023-09",
+      "url": "",
+      "description": "Engineered and scaled a high-traffic, production-grade social media platform (Twitter clone) using React Native, onboarding and serving 100,000+ active users."
     }
   ]
 }
